@@ -1,6 +1,6 @@
 {
   "name": "unicode-byte-truncate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Unicode aware string truncation that given a max byte size will truncate the string to or just below that size",
   "main": "index.js",
   "dependencies": {
@@ -42,5 +42,9 @@
   "bugs": {
     "url": "https://github.com/watson/unicode-byte-truncate/issues"
   },
-  "homepage": "https://github.com/watson/unicode-byte-truncate#readme"
+  "homepage": "https://github.com/watson/unicode-byte-truncate#readme",
+  "coordinates": [
+    55.6666217,
+    12.5798077
+  ]
 }
