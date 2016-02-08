@@ -20,9 +20,9 @@ var trunc = require('unicode-byte-truncate')
 
 var str = 'foo🎉bar' // 10 byte string - byte 4 to 7 is a single character
 
-console.log(trunc(str, 4)) // `foo` == 0x666F6 (3 bytes)
-console.log(trunc(str, 5)) // `foo` == 0x666F6 (3 bytes)
-console.log(trunc(str, 6)) // `foo` == 0x666F6 (3 bytes)
+console.log(trunc(str, 4)) // `foo` == 0x666F6F (3 bytes)
+console.log(trunc(str, 5)) // `foo` == 0x666F6F (3 bytes)
+console.log(trunc(str, 6)) // `foo` == 0x666F6F (3 bytes)
 console.log(trunc(str, 7)) // `foo🎉` == 0x666F6FF09F8E89 (7 bytes)
 ```
 
