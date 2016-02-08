@@ -4,6 +4,7 @@
   "description": "Unicode aware string truncation that given a max byte size will truncate the string to or just below that size",
   "main": "index.js",
   "dependencies": {
+    "is-integer": "^1.0.6",
     "unicode-substring": "^0.1.0"
   },
   "devDependencies": {
